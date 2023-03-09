@@ -1,0 +1,30 @@
+.ha-title{
+  margin: 29px 0 0 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  position: relative;
+  .horizontal-line {
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: 40px;
+    height: 4px;
+    background: #FFBA00;
+    border-radius: 2px;
+  }
+}
+.con-title{
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  .horizontal-line {
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: 40px;
+    height: 4px;
+    background: #FFBA00;
+    border-radius: 2px;
+  }
+}
