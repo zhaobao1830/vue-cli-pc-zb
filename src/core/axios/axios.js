@@ -5,8 +5,10 @@ import store from '@/store'
 import { AUTH_TOKEN } from 'core/config/constant'
 
 const config = {
-  baseURL: Config.baseURL,
-  timeout: 5 * 10000 // 请求超时时间设置
+  baseURL: Config.baseUrl,
+  timeout: 5 * 10000, // 请求超时时间设置
+  // 跨域时允许携带凭证
+  widthCredentials: true
 }
 
 // 创建请求实例
