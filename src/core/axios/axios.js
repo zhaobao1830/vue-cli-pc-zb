@@ -13,7 +13,7 @@ const config = {
 
 // 创建请求实例
 const _axios = axios.create(config)
-_axios.defaults.headers.post['Content-Type'] = 'multipart/form-data; charset=UTF-8'
+_axios.defaults.headers.post['Content-Type'] = 'application/json; charset=UTF-8'
 
 // 对axios的request配置
 _axios.interceptors.request.use(async config => {
